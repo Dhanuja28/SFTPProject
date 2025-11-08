@@ -20,7 +20,7 @@ const config = {
   password: pass
 };
 
- // file path passed from Tally or CM
+// file path passed from Tally or CM
 //const localFilePath = 'C:/Users/sunit/Desktop/New/Newfolder/Test.xlsx';
 const remoteDir = '/uploads/tally/';
 
@@ -41,4 +41,4 @@ async function uploadFile() {
   }
 }
 
-//uploadFile();
+uploadFile();
